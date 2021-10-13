@@ -1,6 +1,6 @@
 {
   "name": "esbuild-svelte-inertia",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "Esbuild Plugin for running Inertia with Svelte",
   "main": "src/index.js",
   "author": "Bilal Budhani <bilal@bilalbudhani.com>",
@@ -10,7 +10,18 @@
     "svelte",
     "inertia"
   ],
+  "homepage": "https://github.com/BilalBudhani/esbuild-svelte-inertia",
+  "bugs": {
+    "url": "https://github.com/BilalBudhani/esbuild-svelte-inertia/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BilalBudhani/esbuild-svelte-inertia.git"
+  },
   "dependencies": {
     "glob": "^7.2.0"
+  },
+  "peerDependencies": {
+    "esbuild": "*"
   }
 }
