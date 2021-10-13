@@ -1,0 +1,16 @@
+{
+  "name": "esbuild-svelte-inertia",
+  "version": "0.0.3",
+  "description": "Esbuild Plugin for running Inertia with Svelte",
+  "main": "src/index.js",
+  "author": "Bilal Budhani <bilal@bilalbudhani.com>",
+  "license": "MIT",
+  "keywords": [
+    "esbuild",
+    "svelte",
+    "inertia"
+  ],
+  "dependencies": {
+    "glob": "^7.2.0"
+  }
+}
